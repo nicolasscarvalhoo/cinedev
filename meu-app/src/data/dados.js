@@ -9,16 +9,16 @@ export const filmes = [
     pais: "Brasil",
     local: "São Paulo, SP",
     coordenadas: [23.5505, -46.6333],
-    imagem: "https://s2-gshow.glbimg.com/L0trKqUmTyUIqDTRSoUNI4GK64g=/1890x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_755cbb8e98bc4df6b024f1581a117b52/internal_photos/bs/2023/X/0/Xkf0QZSzuRKYBaQWKpVg/aa-6684.jpg",
+    imagem: "https://imagizer.imageshack.com/img921/3198/W5aVoG.jpg",
     imagemBanner: "https://escotilha.com.br/wp-content/uploads/2015/10/filme-que-horas-ela-volta-anna-muylaert-critica-resenha.jpeg",
     sinopse: "A pernambucana Val se muda para São Paulo a fim de dar melhores condições de vida para sua filha, Jéssica. Anos depois, a menina lhe telefona dizendo que quer ir para a cidade prestar vestibular, o que abala a rotina da casa dos patrões onde Val trabalha.",
     diretor: "Anna Muylaert",
     imgDiretor: "https://br.web.img3.acsta.net/pictures/16/01/27/21/00/147351.jpg",
     bioDiretor: "Anna Muylaert é uma premiada cineasta, roteirista e produtora brasileira. Conhecida por abordar criticamente as diferenças de classe e questões sociais no Brasil contemporâneo, ganhou destaque internacional com 'Que Horas Ela Volta?'.",
     atores: [
-      { nome: "Regina Casé", foto: "https://upload.wikimedia.org/wikipedia/commons/d/d8/Regina_Cas%C3%A9_at_Reis_e_Ratos_VIP_premiere_in_February_2012.jpg", bio: "Regina Casé é uma renomada atriz, apresentadora e produtora brasileira, famosa por sua atuação marcante e cheia de carisma no cinema e na televisão." },
-      { nome: "Camila Márdila", foto: "https://cdn.managerfashion.com/hr/assets/c2060/t206/book/184db67e-f6c2-48ad-b24d-db4afa3d371d.jpg", bio: "Camila Márdila é uma atriz brasileira premiada internacionalmente no Festival de Sundance por sua brilhante e impactante atuação como a jovem Jéssica." },
-      { nome: "Karine Teles", foto: "https://upload.wikimedia.org/wikipedia/commons/e/ec/Karine_Teles_-_loveling_-_IFFR_2018-1.jpg", bio: "Karine Teles é uma premiada atriz, roteirista e cineasta brasileira, amplamente aclamada no cinema independente e produções dramáticas de grande relevância." }
+      { nome: "Regina Casé", foto: "https://imageshack.com/i/pmXNSSJWj", bio: "Regina Casé é uma renomada atriz, apresentadora e produtora brasileira, famosa por sua atuação marcante e cheia de carisma no cinema e na televisão." },
+      { nome: "Camila Márdila", foto: "https://imagizer.imageshack.com/img921/7803/QpzzAi.jpg", bio: "Camila Márdila é uma atriz brasileira premiada internacionalmente no Festival de Sundance por sua brilhante e impactante atuação como a jovem Jéssica." },
+      { nome: "Karine Teles", foto: "https://imagizer.imageshack.com/img922/2112/axqWTV.jpg", bio: "Karine Teles é uma premiada atriz, roteirista e cineasta brasileira, amplamente aclamada no cinema independente e produções dramáticas de grande relevância." }
     ]
   },
   { 
@@ -29,16 +29,16 @@ export const filmes = [
     pais: "Austrália",
     local: "Sydney (Fox Studios)",
     coordenadas: [-33.8688, 151.2093],
-    imagem: "https://cinebuzz.com.br/wp-content/uploads/2025/04/star-wars-episodio-iii-a-vinganca-dos-sith-retorna-aos-cinemas-apos-20-anos.jpg",
+    imagem: "https://imagizer.imageshack.com/img922/731/9tsPTj.jpg",
     imagemBanner: "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/9d259345-e1ad-4696-880a-0db75856439b/compose?format=webp&width=2560",
     sinopse: "As Guerras Clônicas estão em pleno andamento. O Chanceler Palpatine é sequestrado e Anakin Skywalker e Obi-Wan Kenobi são enviados in uma missão de resgate, enquanto Anakin se vê seduzido pelo lado sombrio da Força.",
     diretor: "George Lucas",
-    imgDiretor: "https://m.media-amazon.com/images/M/MV5BMTA0Mjc0NzExNzBeQTJeQWpwZ15BbWU3MDEzMzQ3MDI@._V1_FMjpg_UX1000_.jpg",
+    imgDiretor: "https://imagizer.imageshack.com/img924/4778/PPhtJQ.jpg",
     bioDiretor: "George Lucas é um cineasta, roteirista e produtor americano, mundialmente famoso por criar as franquias bilionárias 'Star Wars' e 'Indiana Jones', revolucionando a indústria de efeitos visuais no cinema.",
     atores: [
-      { nome: "Ewan McGregor", foto: "https://m.media-amazon.com/images/M/MV5BMTg1MjQ0MDg0Nl5BMl5BanBnXkFtZTcwNjYyNjI5Mg@@._V1_FMjpg_UX1000_.jpg", bio: "Ewan McGregor é um experiente actor escocês de aclamação mundial, imortalizado por interpretar com maestria a versão jovem do mestre Jedi Obi-Wan Kenobi." },
-      { nome: "Natalie Portman", foto: "https://m.media-amazon.com/images/M/MV5BNjk1M2RmODAtMjE0Ny00N2U0LWIwNWYtZTAxMDFiMzk1MjU5XkEyXkFqcGc@._V1_.jpg", bio: "Natalie Portman é uma atriz vencedora do Oscar, diretora e produtora de grande destaque em Hollywood, conhecida por papéis dramáticos, intensos e complexos." },
-      { nome: "Hayden Christensen", foto: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx-ssqxv8oY7qzwpc2iWSfhKm5jbrjjcChhg&s", bio: "Hayden Christensen é um ator canadense que alcançou o estrelato internacional ao viver a trágica transformação de Anakin Skywalker em Darth Vader." }
+      { nome: "Ewan McGregor", foto: "https://imagizer.imageshack.com/img922/8408/m4vlh6.jpg", bio: "Ewan McGregor é um experiente actor escocês de aclamação mundial, imortalizado por interpretar com maestria a versão jovem do mestre Jedi Obi-Wan Kenobi." },
+      { nome: "Natalie Portman", foto: "https://imagizer.imageshack.com/img924/7109/jGRTOw.jpg", bio: "Natalie Portman é uma atriz vencedora do Oscar, diretora e produtora de grande destaque em Hollywood, conhecida por papéis dramáticos, intensos e complexos." },
+      { nome: "Hayden Christensen", foto: "https://imagizer.imageshack.com/img923/3377/MFKUyM.jpg", bio: "Hayden Christensen é um ator canadense que alcançou o estrelato internacional ao viver a trágica transformação de Anakin Skywalker em Darth Vader." }
     ]
   },
   { 
@@ -49,16 +49,16 @@ export const filmes = [
     pais: "EUA",
     local: "Boston, Massachusetts",
     coordenadas: [42.3601, -71.0589],
-    imagem: "https://cinema-em-cena.nyc3.cdn.digitaloceanspaces.com/reviews/1235/bpV8wn48s82au37QyUJ51S7X2Vf.jpg",
-    imagemBanner: "https://cineset.com.br/wp-content/uploads/2024/02/Novos-Classicos-Genio-Indomavel-2.jpg",
+    imagem: "https://imagizer.imageshack.com/img921/218/VruEcv.jpg",
+    imagemBanner: "https://imagizer.imageshack.com/img924/5255/shrJSY.jpg",
     sinopse: "Will Hunting é um jovem brilhante na matemática, mas trabalha como zelador no MIT. Após se meter em encrencas, ele recebe a ajuda de um psicólogo para lidar com seus traumas e direcionar o seu intelecto genial.",
     diretor: "Gus Van Sant",
-    imgDiretor: "https://m.media-amazon.com/images/M/MV5BMTI2MDcxOTEzM15BMl5BanBnXkFtZTcwNjY0ODkyMg@@._V1_FMjpg_UX1000_.jpg",
+    imgDiretor: "https://imagizer.imageshack.com/img923/1671/X4be4y.jpg",
     bioDiretor: "Gus Van Sant é um diretor, roteirista e fotógrafo americano, associado ao cinema independente e conhecido por filmes sensíveis e artísticos que mergulham na mente de jovens marginalizados.",
     atores: [
-      { nome: "Matt Damon", foto: "https://m.media-amazon.com/images/M/MV5BMTM0NzYzNDgxMl5BMl5BanBnXkFtZTcwMDg2MTMyMw@@._V1_.jpg", bio: "Matt Damon é um influente ator e roteirista americano, vencedor do Oscar de Melhor Roteiro Original por coescrever a história deste aclamado filme." },
-      { nome: "Robin Williams", foto: "https://upload.wikimedia.org/wikipedia/commons/5/59/Robin_Williams_Happy_Feet_premiere.jpg", bio: "Robin Williams foi um dos atores e comediantes mais amados da história, vencedor do Oscar de Melhor Ator Coadjuvante por sua atuação inesquecível nesta obra." },
-      { nome: "Ben Affleck", foto: "https://upload.wikimedia.org/wikipedia/commons/b/b6/Ben_Affleck_on_the_Red_Carpet%2C_SXSW_2023_%28cropped%29.jpg", bio: "Ben Affleck é um premiado ator, diretor e roteirista norte-americano que, junto com seu amigo de infância Matt Damon, estourou na indústria cinematográfica com este longa." }
+      { nome: "Matt Damon", foto: "https://imageshack.com/i/pmfmWJeej", bio: "Matt Damon é um influente ator e roteirista americano, vencedor do Oscar de Melhor Roteiro Original por coescrever a história deste aclamado filme." },
+      { nome: "Robin Williams", foto: "https://imagizer.imageshack.com/img924/2391/dYNqiq.jpg", bio: "Robin Williams foi um dos atores e comediantes mais amados da história, vencedor do Oscar de Melhor Ator Coadjuvante por sua atuação inesquecível nesta obra." },
+      { nome: "Ben Affleck", foto: "https://imagizer.imageshack.com/img924/6471/nWtS0V.jpg", bio: "Ben Affleck é um premiado ator, diretor e roteirista norte-americano que, junto com seu amigo de infância Matt Damon, estourou na indústria cinematográfica com este longa." }
     ]
   },
   { 
@@ -69,16 +69,16 @@ export const filmes = [
     pais: "EUA",
     local: "Los Angeles, Califórnia",
     coordenadas: [34.0522, -118.2437],
-    imagem: "https://aventurasnahistoria.com.br/wp-content/uploads/2025/01/seven-os-sete-pecados-capitais-1024x576.jpg",
-    imagemBanner: "https://cinema-em-cena.nyc3.cdn.digitaloceanspaces.com/reviews/1423/iwgl8zlrrfvfWp9k9Paj8lvFEvS.jpg",
+    imagem: "https://imagizer.imageshack.com/img923/1126/PFEXrv.jpg",
+    imagemBanner: "https://imagizer.imageshack.com/img921/3092/ThKYRA.jpg",
     sinopse: "Dois detetives, um jovem impulsivo e outro veterano prestes a se aposentar, caçam um serial killer meticuloso que escolhe e pune suas vítimas de acordo com os sete pecados capitais.",
     diretor: "David Fincher",
-    imgDiretor: "https://m.media-amazon.com/images/M/MV5BMTc1NDkwMTQ2MF5BMl5BanBnXkFtZTcwMzY0ODkyMg@@._V1_FMjpg_UX1000_.jpg",
+    imgDiretor: "https://imagizer.imageshack.com/img923/2329/CTPbmF.jpg",
     bioDiretor: "David Fincher é um aclamado diretor americano conhecido por seu estilo visual sombrio, perfeccionismo técnico e thrillers psicológicos eletrizantes como 'Fight Club', 'Zodiac' e 'The Social Network'.",
     atores: [
-      { nome: "Brad Pitt", foto: "https://upload.wikimedia.org/wikipedia/commons/9/90/Brad_Pitt-69858.jpg", bio: "Brad Pitt é um premiado ator e produtor de cinema norte-americano, amplamente considerado um dos astros mais talentosos e influentes da história recente de Hollywood." },
-      { nome: "Morgan Freeman", foto: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Morgan_Freeman_at_The_Pentagon_on_2_August_2023_-_230802-D-PM193-3363_%28cropped%29.jpg/960px-Morgan_Freeman_at_The_Pentagon_on_2_August_2023_-_230802-D-PM193-3363_%28cropped%29.jpg", bio: "Morgan Freeman é um lendário e respeitado ator e narrador americano, vencedor do Oscar e dono de uma das vozes mais icônicas e reconhecidas do cinema mundial." },
-      { nome: "Gwyneth Paltrow", foto: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Gwyneth_Paltrow_-_Marty_Supreme.jpg/960px-Gwyneth_Paltrow_-_Marty_Supreme.jpg", bio: "Gwyneth Paltrow é uma atriz norte-americana de grande renome, vencedora do Oscar de Melhor Atriz e fundadora de uma bem-sucedida marca de bem-estar." }
+      { nome: "Brad Pitt", foto: "https://imagizer.imageshack.com/img923/4386/MPMSBE.jpg", bio: "Brad Pitt é um premiado ator e produtor de cinema norte-americano, amplamente considerado um dos astros mais talentosos e influentes da história recente de Hollywood." },
+      { nome: "Morgan Freeman", foto: "https://imageshack.com/i/pnxtyq8Nj", bio: "Morgan Freeman é um lendário e respeitado ator e narrador americano, vencedor do Oscar e dono de uma das vozes mais icônicas e reconhecidas do cinema mundial." },
+      { nome: "Gwyneth Paltrow", foto: "https://imagizer.imageshack.com/img921/122/5HuNgC.jpg", bio: "Gwyneth Paltrow é uma atriz norte-americana de grande renome, vencedora do Oscar de Melhor Atriz e fundadora de uma bem-sucedida marca de bem-estar." }
     ]
   },
   { 
@@ -89,16 +89,16 @@ export const filmes = [
     pais: "Japão",
     local: "Tóquio (Studio Ghibli)",
     coordenadas: [35.6994, 139.5266],
-    imagem: "https://t.ctcdn.com.br/vR1fzSlgU4F1LTiFZHSfaQgwd_M=/1200x675/smart/i376290.jpeg",
+    imagem: "https://imagizer.imageshack.com/img922/2906/KzFk37.jpg",
     imagemBanner: "https://i0.wp.com/cinegrandiose.com/wp-content/uploads/Chihiro-1.png?fit=960%2C540&ssl=1",
     sinopse: "Chihiro é uma menina de 10 anos que muda de cidade com os pais. No caminho, eles encontram um mundo fantasma mágico habitado por deuses e criaturas, onde seus pais são transformados em porcos.",
     diretor: "Hayao Miyazaki",
-    imgDiretor: "https://m.media-amazon.com/images/M/MV5BMjcyNjk2OTkwNF5BMl5BanBnXkFtZTcwOTk0MTQ3Mg@@._V1_FMjpg_UX1000_.jpg",
+    imgDiretor: "https://imagizer.imageshack.com/img923/2522/9wHMM0.jpg",
     bioDiretor: "Hayao Miyazaki é o mestre da animação japonesa e cofundador do Studio Ghibli. Seus filmes são marcados por temas profundos como pacifismo, ambientalismo e protagonistas femininas fortes.",
     atores: [
       { nome: "Rumi Hiiragi", foto: "https://image.tmdb.org/t/p/original/nTKM4GgfkrZvAOFL55uhEuckt7M.jpg", bio: "Rumi Hiiragi é uma talentosa atriz e dubladora japonesa, eternizada mundialmente por dar a voz original comovente à protagonista Chihiro." },
-      { nome: "Miyu Irino", foto: "https://m.media-amazon.com/images/M/MV5BOTVmNDU2MjYtMjhmNS00NjQ0LWJkZGItZjdlYjZlN2YzYWRhXkEyXkFqcGc@._V1_.jpg", bio: "Miyu Irino é um renomado dublador, cantor e ator japonês, amplamente aclamado por dublar o misterioso e leal espírito do rio, Haku." },
-      { nome: "Mari Natsuki", foto: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyGc4AFUSI824Lo7feQJiL2kPGdqXTNMzSvQ&s", bio: "Mari Natsuki é uma consagrada artista japonesa com vasta carreira na música e atuação, marcante por sua dublagem dupla das icônicas bruxas Yubaba e Zeniba." }
+      { nome: "Miyu Irino", foto: "https://imagizer.imageshack.com/img923/738/BZzIli.jpg", bio: "Miyu Irino é um renomado dublador, cantor e ator japonês, amplamente aclamado por dublar o misterioso e leal espírito do rio, Haku." },
+      { nome: "Mari Natsuki", foto: "https://imagizer.imageshack.com/img922/7029/lZKNx8.jpg", bio: "Mari Natsuki é uma consagrada artista japonesa com vasta carreira na música e atuação, marcante por sua dublagem dupla das icônicas bruxas Yubaba e Zeniba." }
     ]
   },
   { 
@@ -110,13 +110,13 @@ export const filmes = [
     local: "Stratford-upon-Avon",
     coordenadas: [52.1917, -1.7083],
     imagem: "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/09/Hamnet-Jessie-Buckley.jpg?w=1200&h=675&crop=1",
-    imagemBanner: "https://wp.ufpel.edu.br/empauta/files/2026/03/Hamnet-Imagem-1.jpg",
+    imagemBanner: "https://imagizer.imageshack.com/img923/6642/iwAtEE.jpg",
     sinopse: "Uma produção dramática e profunda que narra os bastidores emocionais, familiares e históricos que inspiraram uma das maiores peças de teatro de todos os tempos.",
     diretor: "Chloé Zhao", // <-- CORRIGIDO!
-    imgDiretor: "https://upload.wikimedia.org/wikipedia/commons/a/ac/Chlo%C3%A9_Zhao_at_the_2026_Berlin_International_Film_Festival-68507.jpg", 
-    bioDiretor: "Chloé Zhao é uma aclamada cineasta, roteirista e produtora oscarizada. Conhecida por seu estilo cinematográfico contemplativo, intimista e naturalista, fez história com 'Nomadland' antes de assumir o comando técnico da adaptação de 'Hamnet'.", // <-- CORRIGIDO!
+    imgDiretor: "https://imageshack.com/i/plzTVV2Zj", 
+    bioDiretor: "Chloé Zhao é uma aclamada cineasta, roteirista e produtora oscarizada. Conhecida por seu estilo cinematográfico contemplativo, intimista e naturalista, fez história com 'Nomadland' antes de assumir o comando técnico da adaptação de 'Hamnet'.", 
     atores: [
-      { nome: "Jessie Buckley", foto: "https://upload.wikimedia.org/wikipedia/commons/0/06/Jessie_Buckley_at_the_Toronto_International_Film_Festival_01.jpg_%28Cropped_%26_Centered%29.jpg", bio: "Jessie Buckley é uma aclamada atriz e cantora irlandesa, celebrada em Hollywood e indicada ao Oscar por suas atuações intensas em produções de época e drama." },
+      { nome: "Jessie Buckley", foto: "https://imagizer.imageshack.com/img922/2527/TZFK4r.jpg", bio: "Jessie Buckley é uma aclamada atriz e cantora irlandesa, celebrada em Hollywood e indicada ao Oscar por suas atuações intensas em produções de época e drama." },
       { nome: "Paul Mescal", foto: "https://hips.hearstapps.com/hmg-prod/images/paul-mescal-attends-the-ee-bafta-film-awards-2024-at-the-news-photo-1728062989.jpg?crop=1.00xw:0.718xh;0,0.0493xh&resize=640:*", bio: "Paul Mescal é um aclamado jovem ator irlandês, vencedor do prêmio BAFTA e indicado ao Oscar, destaque pela sensibilidade e profundidade emocional de seus papéis." },
       { nome: "Emily Watson", foto: "https://m.media-amazon.com/images/M/MV5BMjAwNzc5MjE0N15BMl5BanBnXkFtZTcwMzUyNTMzNw@@._V1_.jpg", bio: "Emily Watson é uma renomada e multipremiada veterana atriz britânica, com uma carreira brilhante no cinema independente, teatro e televisão." }
     ]

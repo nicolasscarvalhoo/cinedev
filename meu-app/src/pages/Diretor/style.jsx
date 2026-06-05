@@ -21,7 +21,6 @@ export const BoxDiretor = styled.div`
   align-items: center; /* Centraliza a foto e os textos */
 `;
 
-// NOVO ESTILO: Foto redonda com borda vermelha temática
 export const FotoDiretor = styled.img`
   width: 140px;
   height: 140px;
