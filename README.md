@@ -20,7 +20,7 @@ O **CineDev** é um mini aplicativo desenvolvido em React que funciona como um c
    * **Filtragem:** Sistema global na página principal para filtrar os filmes na tela dinamicamente por gênero/país.
    * **Navegação Dinâmica:** Controle de fluxo de telas que permite transitar entre a listagem, tela de detalhes e o perfil dos artistas.
 3. **Estilização com Styled-Components:** Toda a identidade visual (Layout Escuro no estilo "Streaming") foi desacoplada em arquivos independentes (`style.jsx`), utilizando recursos avançados como passagem de propriedades para mudar o estilo em tempo de execução (propriedade `$fav` no botão).
-4. **Reuso de Telas:** A página de `PerfilAtor` foi reaproveitada de forma inteligente no ecossistema da aplicação para exibir também os dados da biografia e fotos dos Diretores.
+4. **Reuso de Telas:** A página de `Ator` foi reaproveitada de forma inteligente no ecossistema da aplicação para exibir também os dados da biografia e fotos dos Diretores.
 5. **Integração com Mapas:** Injeção de mapas interativos baseados nas coordenadas e nomes de locais reais de filmagem contidos no banco de dados.
 
 ---
@@ -36,13 +36,13 @@ src/
  │       ├── index.jsx
  │       └── style.jsx
  ├── pages/
- │   ├── HomeFilmes/
+ │   ├── Home/
  │   │   ├── index.jsx
  │   │   └── style.jsx
  │   ├── Detalhes/
  │   │   ├── index.jsx
  │   │   └── style.jsx
- │   └── PerfilAtor/
+ │   └── Ator/
  │       ├── index.jsx
  │       └── style.jsx
  ├── data/
