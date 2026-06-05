@@ -6,6 +6,18 @@ export const Container = styled.div`
   padding: 40px 20px;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  h1, h2 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    line-height: 1.4;   
+    text-align: center; 
+    margin-bottom: 20px;
+
+    @media (max-width: 768px) {
+      font-size: 1.8rem; 
+    }
+  }
 `;
 
 export const BotonVoltar = styled.button`

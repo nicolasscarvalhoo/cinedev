@@ -9,7 +9,7 @@ export const filmes = [
     imagem: "https://s2-gshow.glbimg.com/L0trKqUmTyUIqDTRSoUNI4GK64g=/1890x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_755cbb8e98bc4df6b024f1581a117b52/internal_photos/bs/2023/X/0/Xkf0QZSzuRKYBaQWKpVg/aa-6684.jpg",
     sinopse: "A pernambucana Val se muda para São Paulo a fim de dar melhores condições de vida para sua filha, Jéssica. Anos depois, a menina lhe telefona dizendo que quer ir para a cidade prestar vestibular, o que abala a rotina da casa dos patrões onde Val trabalha.",
     diretor: "Anna Muylaert",
-    imgDiretor: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=300&h=300&fit=crop",
+    imgDiretor: "https://br.web.img3.acsta.net/pictures/16/01/27/21/00/147351.jpg",
     bioDiretor: "Anna Muylaert é uma premiada cineasta, roteirista e produtora brasileira. Conhecida por abordar criticamente as diferenças de classe e questões sociais no Brasil contemporâneo, ganhou destaque internacional com 'Que Horas Ela Volta?'.",
     atores: [
       { nome: "Regina Casé", foto: "https://upload.wikimedia.org/wikipedia/commons/d/d8/Regina_Cas%C3%A9_at_Reis_e_Ratos_VIP_premiere_in_February_2012.jpg", bio: "Regina Casé é uma renomada atriz, apresentadora e produtora brasileira, famosa por sua atuação marcante e cheia de carisma no cinema e na televisão." },
@@ -22,10 +22,10 @@ export const filmes = [
     titulo: "Star Wars Episódio III: A Vingança dos Sith", 
     genero: "Ação/Ficção Científica", 
     ano: 2005, 
-    imagem: "https://disney.images.edge.bamgrid.com/ripcut-delivery/v2/variant/disney/3a3c6316-74c2-436b-ac94-9ca61e1e555c/compose?aspectRatio=1.78&format=webp&width=1200",
+    imagem: "https://cinebuzz.com.br/wp-content/uploads/2025/04/star-wars-episodio-iii-a-vinganca-dos-sith-retorna-aos-cinemas-apos-20-anos.jpg",
     sinopse: "As Guerras Clônicas estão em pleno andamento. O Chanceler Palpatine é sequestrado e Anakin Skywalker e Obi-Wan Kenobi são enviados in uma missão de resgate, enquanto Anakin se vê seduzido pelo lado sombrio da Força.",
     diretor: "George Lucas",
-    imgDiretor: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop",
+    imgDiretor: "https://m.media-amazon.com/images/M/MV5BMTA0Mjc0NzExNzBeQTJeQWpwZ15BbWU3MDEzMzQ3MDI@._V1_FMjpg_UX1000_.jpg",
     bioDiretor: "George Lucas é um cineasta, roteirista e produtor americano, mundialmente famoso por criar as franquias bilionárias 'Star Wars' e 'Indiana Jones', revolucionando a indústria de efeitos visuais no cinema.",
     atores: [
       { nome: "Ewan McGregor", foto: "https://m.media-amazon.com/images/M/MV5BMTg1MjQ0MDg0Nl5BMl5BanBnXkFtZTcwNjYyNjI5Mg@@._V1_FMjpg_UX1000_.jpg", bio: "Ewan McGregor é um experiente actor escocês de aclamação mundial, imortalizado por interpretar com maestria a versão jovem do mestre Jedi Obi-Wan Kenobi." },
@@ -41,7 +41,7 @@ export const filmes = [
     imagem: "https://cinema-em-cena.nyc3.cdn.digitaloceanspaces.com/reviews/1235/bpV8wn48s82au37QyUJ51S7X2Vf.jpg",
     sinopse: "Will Hunting é um jovem brilhante na matemática, mas trabalha como zelador no MIT. Após se meter em encrencas, ele recebe a ajuda de um psicólogo para lidar com seus traumas e direcionar o seu intelecto genial.",
     diretor: "Gus Van Sant",
-    imgDiretor: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=300&h=300&fit=crop",
+    imgDiretor: "https://m.media-amazon.com/images/M/MV5BMTI2MDcxOTEzM15BMl5BanBnXkFtZTcwNjY0ODkyMg@@._V1_FMjpg_UX1000_.jpg",
     bioDiretor: "Gus Van Sant é um diretor, roteirista e fotógrafo americano, associado ao cinema independente e conhecido por filmes sensíveis e artísticos que mergulham na mente de jovens marginalizados.",
     atores: [
       { nome: "Matt Damon", foto: "https://m.media-amazon.com/images/M/MV5BMTM0NzYzNDgxMl5BMl5BanBnXkFtZTcwMDg2MTMyMw@@._V1_.jpg", bio: "Matt Damon é um influente ator e roteirista americano, vencedor do Oscar de Melhor Roteiro Original por coescrever a história deste aclamado filme." },
@@ -57,7 +57,7 @@ export const filmes = [
     imagem: "https://aventurasnahistoria.com.br/wp-content/uploads/2025/01/seven-os-sete-pecados-capitais-1024x576.jpg",
     sinopse: "Dois detetives, um jovem impulsivo e outro veterano prestes a se aposentar, caçam um serial killer meticuloso que escolhe e pune suas vítimas de acordo com os sete pecados capitais.",
     diretor: "David Fincher",
-    imgDiretor: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop",
+    imgDiretor: "https://m.media-amazon.com/images/M/MV5BMTc1NDkwMTQ2MF5BMl5BanBnXkFtZTcwMzY0ODkyMg@@._V1_FMjpg_UX1000_.jpg",
     bioDiretor: "David Fincher é um aclamado diretor americano conhecido por seu estilo visual sombrio, perfeccionismo técnico e thrillers psicológicos eletrizantes como 'Fight Club', 'Zodiac' e 'The Social Network'.",
     atores: [
       { nome: "Brad Pitt", foto: "https://upload.wikimedia.org/wikipedia/commons/9/90/Brad_Pitt-69858.jpg", bio: "Brad Pitt é um premiado ator e produtor de cinema norte-americano, amplamente considerado um dos astros mais talentosos e influentes da história recente de Hollywood." },
@@ -73,7 +73,7 @@ export const filmes = [
     imagem: "https://t.ctcdn.com.br/vR1fzSlgU4F1LTiFZHSfaQgwd_M=/1200x675/smart/i376290.jpeg",
     sinopse: "Chihiro é uma menina de 10 anos que muda de cidade com os pais. No caminho, eles encontram um mundo fantasma mágico habitado por deuses e criaturas, onde seus pais são transformados em porcos.",
     diretor: "Hayao Miyazaki",
-    imgDiretor: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=300&h=300&fit=crop",
+    imgDiretor: "https://m.media-amazon.com/images/M/MV5BMjcyNjk2OTkwNF5BMl5BanBnXkFtZTcwOTk0MTQ3Mg@@._V1_FMjpg_UX1000_.jpg",
     bioDiretor: "Hayao Miyazaki é o mestre da animação japonesa e cofundador do Studio Ghibli. Seus filmes são marcados por temas profundos como pacifismo, ambientalismo e protagonistas femininas fortes.",
     atores: [
       { nome: "Rumi Hiiragi", foto: "https://image.tmdb.org/t/p/original/nTKM4GgfkrZvAOFL55uhEuckt7M.jpg", bio: "Rumi Hiiragi é uma talentosa atriz e dubladora japonesa, eternizada mundialmente por dar a voz original comovente à protagonista Chihiro." },
@@ -89,7 +89,7 @@ export const filmes = [
     imagem: "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2025/09/Hamnet-Jessie-Buckley.jpg?w=1200&h=675&crop=1",
     sinopse: "Uma produção dramática e profunda que narra os bastidores emocionais, familiares e históricos que inspiraram uma das maiores peças de teatro de todos os tempos.",
     diretor: "Chloé Zhao", // <-- CORRIGIDO!
-    imgDiretor: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&h=300&fit=crop", // <-- Novo placeholder feminino
+    imgDiretor: "https://upload.wikimedia.org/wikipedia/commons/a/ac/Chlo%C3%A9_Zhao_at_the_2026_Berlin_International_Film_Festival-68507.jpg", 
     bioDiretor: "Chloé Zhao é uma aclamada cineasta, roteirista e produtora oscarizada. Conhecida por seu estilo cinematográfico contemplativo, intimista e naturalista, fez história com 'Nomadland' antes de assumir o comando técnico da adaptação de 'Hamnet'.", // <-- CORRIGIDO!
     atores: [
       { nome: "Jessie Buckley", foto: "https://upload.wikimedia.org/wikipedia/commons/0/06/Jessie_Buckley_at_the_Toronto_International_Film_Festival_01.jpg_%28Cropped_%26_Centered%29.jpg", bio: "Jessie Buckley é uma aclamada atriz e cantora irlandesa, celebrada em Hollywood e indicada ao Oscar por suas atuações intensas em produções de época e drama." },
@@ -105,7 +105,7 @@ export const filmes = [
     imagem: "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/06/central-do-brasil-fernanda-montenegro.png?w=720",
     sinopse: "Dora escreve cartas para analfabetos na estação Central do Brasil. Quando a mãe de um menino morre atropelada, ela relutantemente decide ajudar o garoto a viajar pelo interior do Nordeste à procura do pai que ele nunca conheceu.",
     diretor: "Walter Salles",
-    imgDiretor: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=300&h=300&fit=crop",
+    imgDiretor: "https://revistatrip.uol.com.br/wp-content/uploads/media/2009/03/tpm80-vermelhas-005.jpg",
     bioDiretor: "Walter Salles é um dos cineastas brasileiros mais importantes da história moderna, célebre por levar o cinema nacional aos maiores festivais mundiais com obras-primas de forte impacto humanista.",
     atores: [
       { nome: "Fernanda Montenegro", foto: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/BR_RJANRIO_PH_0_FOT_34783_020.jpg/250px-BR_RJANRIO_PH_0_FOT_34783_020.jpg", bio: "Fernanda Montenegro é a grande dama da dramaturgia brasileira, amplamente reconhecida como uma das maiores atrizes do mundo e indicada ao Oscar de Melhor Atriz por este papel." },
@@ -121,7 +121,7 @@ export const filmes = [
     imagem: "https://m.media-amazon.com/images/M/MV5BMTgxNzEwNzEyN15BMl5BanBnXkFtZTgwMjc4MzA4MTI@._V1_.jpg",
     sinopse: "Uma ex-assassina profissional acorda de um coma de quatro anos decidida a se vingar do seu antigo chefe, Bill, e do grupo de assassinos que destruiu o dia do seu casamento.",
     diretor: "Quentin Tarantino",
-    imgDiretor: "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?w=300&h=300&fit=crop",
+    imgDiretor: "https://image.tmdb.org/t/p/w500/1gjcpAa99FAOWGnrUvHEXXsRs7o.jpg",
     bioDiretor: "Quentin Tarantino é um dos diretores mais icônicos do cinema pop. Seus filmes são inconfundíveis devido aos diálogos afiados, cronologia não-linear, trilhas sonoras marcantes e explosões estilizadas de ação.",
     atores: [
       { nome: "Uma Thurman", foto: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/UmaThurman-byPhilipRomano.jpg/960px-UmaThurman-byPhilipRomano.jpg", bio: "Uma Thurman é uma célebre atriz norte-americana, musa de Quentin Tarantino que marcou a história do cinema pop no icônico papel da vingativa Noiva." },
@@ -137,7 +137,7 @@ export const filmes = [
     imagem: "https://occ-0-8407-116.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABZGGLgCtVoME2pDOlRjfpTTFruaDQEMqxEM904gERuD6D7R4xuCZGQcqsSoni96pv8mWGJIjBPCpg13I06JUp6LQmYBaCP7qDQOJ.jpg?r=d5f",
     sinopse: "Mesmo com o raciocínio lento, Forrest Gump nunca se sentiu desfavorecido. Ele testemunha e, sem querer, participa de alguns dos momentos mais importantes da história dos Estados Unidos enquanto busca o amor de sua vida.",
     diretor: "Robert Zemeckis",
-    imgDiretor: "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=300&h=300&fit=crop",
+    imgDiretor: "https://m.media-amazon.com/images/M/MV5BMTgyMTMzMDUyNl5BMl5BanBnXkFtZTcwODA0ODMyMw@@._V1_.jpg",
     bioDiretor: "Robert Zemeckis é um diretor e roteirista americano mestre em misturar narrativa clássica com inovações tecnológicas de ponta. Ele criou sucessos estrondosos como a trilogia 'De Volta para o Futuro' e 'Náufrago'.",
     atores: [
       { nome: "Tom Hanks", foto: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/TomHanks-byPhilipRomano.jpg/960px-TomHanks-byPhilipRomano.jpg", bio: "Tom Hanks é um dos atores mais condecorados da história, vencedor de dois prêmios Oscar de Melhor Atriz/Ator consecutivos, incluindo sua magnífica atuação como Forrest." },
@@ -153,7 +153,7 @@ export const filmes = [
     imagem: "https://cinemacao.com/wp-content/uploads/2018/01/viva-a-vida-e-uma-festa-2.jpg",
     sinopse: "Apesar da proibição da música por gerações em sua família, Miguel sonha em se tornar um grande músico. Ele acaba desencadeando uma misteriosa série de eventos que o leva até a deslumbrante Terra dos Mortos.",
     diretor: "Lee Unkrich",
-    imgDiretor: "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=300&h=300&fit=crop",
+    imgDiretor: "https://m.media-amazon.com/images/M/MV5BMjA1ODE2NTEzN15BMl5BanBnXkFtZTYwNzUzODY2._V1_FMjpg_UX1000_.jpg",
     bioDiretor: "Lee Unkrich é um prestigiado diretor e editor da Pixar Animation Studios, responsável por comandar marcos emocionais da animação mundial como 'Toy Story 3' e 'Viva - A Vida é uma Festa'.",
     atores: [
       { nome: "Anthony Gonzalez", foto: "https://m.media-amazon.com/images/M/MV5BOGJjNjhhMzktZmE5Yy00Zjg1LWI3YWUtNzc5Njg3ZjM1ZDM2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg", bio: "Anthony Gonzalez é um talentoso jovem ator e cantor norte-americano que emocionou o mundo ao dar alma e cantar as canções originais do protagonista Miguel." },

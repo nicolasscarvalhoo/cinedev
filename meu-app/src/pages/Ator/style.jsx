@@ -7,6 +7,16 @@ export const Container = styled.div`
   color: white;
   text-align: center;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  h1, h2 {
+    color: #ffffff;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    
+    @media (max-width: 768px) {
+      font-size: 1.8rem;
+    }
+  }
 `;
 
 export const BoxAtor = styled.div`

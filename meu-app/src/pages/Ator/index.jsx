@@ -13,7 +13,7 @@ export default function Ator({ ator, onVoltar }) {
         </h1>
         
         <p style={{ color: '#b3b3b3', fontSize: '14px', marginBottom: '20px', marginTop: 0 }}>
-          🌟 Estrela em Nosso Catálogo
+          
         </p>
         
         <hr style={{ border: '0.5px solid #2d2d35', margin: '10px 0 20px 0', width: '100%' }} />

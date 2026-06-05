@@ -1,5 +1,13 @@
 import styled from 'styled-components';
 
+export const HeaderContainer = styled.header`
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;
+
 export const Wrapper = styled.div`
   max-width: 1100px;
   margin: 0 auto;
@@ -8,10 +16,22 @@ export const Wrapper = styled.div`
 `;
 
 export const Titulo = styled.h1`
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   color: #ffffff;
-  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+
   font-size: 2.5rem;
+  line-height: 1.3; 
+  flex-wrap: wrap;  
+
+  @media (max-width: 768px) {
+    font-size: 1.8rem; 
+    gap: 5px;
+  } 
 `;
 
 export const Grid = styled.div`

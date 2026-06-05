@@ -1,17 +1,25 @@
+import React, { useState } from 'react';
 import * as S from './style';
 
 export default function Card({ filme, onVerMais }) {
+  const [favoritado, setFavoritado] = useState(false);
+
   return (
     <S.CardBox>
       <S.Imagen src={filme.imagem} alt={filme.titulo} />
+      
       <S.Info>
         <S.Badge>{filme.genero}</S.Badge>
-        <h3 style={{ margin: 0, color: '#ffffff' }}>{filme.titulo}</h3>
-        <p style={{ margin: 0, color: '#b3b3b3', fontSize: '14px' }}>Ano: {filme.ano}</p>
         
-        {/* Quando clica, avisa o pai qual filme foi selecionado */}
-        <S.BotonFav onClick={onVerMais}>
-          Ver Mais
+        <S.TituloCard>{filme.titulo}</S.TituloCard>
+        <S.AnoCard>Ano: {filme.ano}</S.AnoCard>
+        
+        <S.BotonDetalhes onClick={onVerMais}>
+          Ver Detalhes
+        </S.BotonDetalhes>
+
+        <S.BotonFav $fav={favoritado} onClick={() => setFavoritado(!favoritado)}>
+          {favoritado ? 'Favoritado' : 'Favoritar'}
         </S.BotonFav>
       </S.Info>
     </S.CardBox>

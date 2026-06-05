@@ -25,7 +25,7 @@ export const Info = styled.div`
   padding: 16px;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 12px;
   flex-grow: 1;
   color: #ffffff;
 `;
@@ -41,6 +41,38 @@ export const Badge = styled.span`
   text-transform: uppercase;
 `;
 
+export const TituloCard = styled.h3`
+  margin: 0;
+  color: #ffffff;
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 1.3;
+`;
+
+export const AnoCard = styled.p`
+  margin: 0;
+  color: #b3b3b3;
+  font-size: 14px;
+  text-align: center;
+`;
+
+export const BotonDetalhes = styled.button`
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: auto; 
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+`;
+
 export const BotonFav = styled.button`
   background-color: ${props => props.$fav ? '#e50914' : 'transparent'};
   color: #ffffff;
@@ -49,7 +81,7 @@ export const BotonFav = styled.button`
   border-radius: 6px;
   cursor: pointer;
   font-weight: bold;
-  margin-top: auto;
+  margin-top: 4px;
   transition: all 0.2s;
 
   &:hover {
