@@ -1,41 +1,66 @@
+import React from 'react';
 import * as S from './style';
 
-export default function Detalhes({ filme, onVoltar, onVerDiretor, onVerAtor }) {
+export default function Detalhes({ filme, onVoltar, onVerAtor }) {
+  if (!filme) {
+    return (
+      <S.Container>
+        <S.BotonVoltar onClick={onVoltar}>← Voltar para o Catálogo</S.BotonVoltar>
+        <p style={{ textAlign: 'center' }}>Carregando dados do filme...</p>
+      </S.Container>
+    );
+  }
+
+  const enderecoBusca = `${filme.local || ''} ${filme.pais || ''}`;
+
   return (
     <S.Container>
       <S.BotonVoltar onClick={onVoltar}>← Voltar para o Catálogo</S.BotonVoltar>
       
-      <S.Banner src={filme.imagem} alt={filme.titulo} />
+      <S.Banner src={filme.imagemBanner || filme.imagem} alt={filme.titulo} />
+      
+      <h1>{filme.titulo}</h1>
       
       <S.InfoSet>
-        <S.Badge>{filme.genero}</S.Badge>
+        <p><strong>Ano de Lançamento:</strong> {filme.ano}</p>
+        <p><strong>Diretor:</strong> <span style={{ color: '#e50914', fontWeight: 'bold' }}>{filme.diretor}</span></p>
         
-        <h1 style={{ fontSize: '2.5rem', margin: '10px 0' }}>{filme.titulo}</h1>
-        <p style={{ color: '#b3b3b3', margin: 0 }}><strong>Ano de Lançamento:</strong> {filme.ano}</p>
-        
-        <p style={{ color: '#ffffff', margin: '5px 0', fontSize: '1.1rem' }}>
-          <strong>Diretor:</strong> 
-          <S.DiretorLink onClick={onVerDiretor}>
-            {filme.diretor}
-          </S.DiretorLink>
-        </p>
-
-        <div style={{ marginTop: '5px', textAlign: 'center' }}>
-          <strong style={{ color: '#ffffff', fontSize: '1.1rem' }}>Elenco Principal:</strong>
-          <S.AtoresGrid>
-            {filme.atores.map((ator, index) => (
+        <p style={{ fontWeight: 'bold', marginTop: '10px', marginBottom: '0px' }}>Elenco Principal:</p>
+        <S.AtoresGrid>
+          {filme.atores && filme.atores.length > 0 ? (
+            filme.atores.map((ator, index) => (
               <S.AtorChip key={index} onClick={() => onVerAtor(ator)}>
-                 {ator.nome}
+                {ator.nome}
               </S.AtorChip>
-            ))}
-          </S.AtoresGrid>
-        </div>
-        
-        <hr style={{ border: '0.5px solid #2d2d35', margin: '20px 0' }} />
-        
-        <h2>Sinopse</h2>
-        <S.SinopseText>{filme.sinopse}</S.SinopseText>
+            ))
+          ) : (
+            <p style={{ color: '#aaaaaa', fontSize: '14px' }}>Elenco não disponível.</p>
+          )}
+        </S.AtoresGrid>
       </S.InfoSet>
+
+      <hr style={{ borderColor: '#2d2d35', margin: '20px 0' }} />
+
+      <S.SinopseText><strong>Sinopse:</strong> {filme.sinopse}</S.SinopseText>
+
+      <h2>Cenário e Local de Gravação</h2>
+      <p style={{ textAlign: 'center', color: '#b3b3b3', marginBottom: '20px' }}>
+        Este filme foi gravado em: <strong>{filme.local || 'Não informado'} ({filme.pais || 'Não informado'})</strong>
+      </p>
+
+      {filme.local && (
+        <S.MapBox>
+          <iframe
+            title="Mapa de Gravação"
+            width="100%"
+            height="100%"
+            style={{ border: 0 }}
+            loading="lazy"
+            allowFullScreen
+            src={`https://maps.google.com/maps?q=${encodeURIComponent(enderecoBusca)}&t=&z=13&ie=UTF8&iwloc=&output=embed`}
+          ></iframe>
+        </S.MapBox>
+      )}
     </S.Container>
   );
 }

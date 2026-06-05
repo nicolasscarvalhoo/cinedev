@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Home from './pages/Home';
 import Detalhes from './pages/Detalhes';
 import Diretor from './pages/Diretor';
-import Ator from './pages/Ator'; // <-- Importa a página nova do ator
+import Ator from './pages/Ator'; 
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
@@ -17,13 +17,12 @@ const GlobalStyle = createGlobalStyle`
 function App() {
   const [filmeAtivo, setFilmeAtivo] = useState(null);
   const [diretorAtivo, setDiretorAtivo] = useState(null);
-  const [atorAtivo, setAtorAtivo] = useState(null); // <-- Novo estado para controlar a tela do ator
+  const [atorAtivo, setAtorAtivo] = useState(null); 
 
   return (
     <>
       <GlobalStyle />
-      
-      {/* Sistema de Rotas Expandido */}
+
       {atorAtivo ? (
         <Ator 
           ator={atorAtivo} 
@@ -39,7 +38,7 @@ function App() {
           filme={filmeAtivo} 
           onVoltar={() => setFilmeAtivo(null)} 
           onVerDiretor={() => setDiretorAtivo(filmeAtivo)}
-          onVerAtor={(ator) => setAtorAtivo(ator)} // <-- Captura o ator clicado e abre a tela dele
+          onVerAtor={(ator) => setAtorAtivo(ator)} 
         />
       ) : (
         <Home 

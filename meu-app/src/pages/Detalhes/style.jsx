@@ -10,30 +10,21 @@ export const Container = styled.div`
   h1, h2 {
     color: #ffffff;
     font-size: 2.5rem;
-    line-height: 1.4;   
-    text-align: center; 
+    line-height: 1.4;
+    text-align: center;
     margin-bottom: 20px;
 
     @media (max-width: 768px) {
-      font-size: 1.8rem; 
+      font-size: 1.8rem;
     }
   }
-`;
 
-export const BotonVoltar = styled.button`
-  background-color: transparent;
-  color: white;
-  border: 2px solid white;
-  padding: 10px 20px;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: bold;
-  margin-bottom: 30px;
-  transition: all 0.2s;
-
-  &:hover {
-    background-color: white;
-    color: black;
+  h2 {
+    font-size: 1.8rem;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #2d2d35;
+    padding-bottom: 10px;
   }
 `;
 
@@ -43,51 +34,32 @@ export const Banner = styled.img`
   object-fit: cover;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+  margin-bottom: 24px;
 `;
 
 export const InfoSet = styled.div`
-  margin-top: 24px;
   display: flex;
   flex-direction: column;
   gap: 12px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  align-items: center;
+  text-align: center;
 `;
 
 export const SinopseText = styled.p`
   color: #cccccc;
   font-size: 18px;
   line-height: 1.6;
-`;
-
-export const DiretorLink = styled.span`
-  color: #e50914;
-  cursor: pointer;
-  font-weight: bold;
-  text-decoration: none;
-  margin-left: 5px;
-  transition: color 0.2s, text-decoration 0.2s;
-
-  &:hover {
-    color: #b81d24;
-    text-decoration: underline;
-  }
-`;
-
-export const Badge = styled.span`
-  background-color: #e50914;
-  color: white;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 4px 8px;
-  border-radius: 4px;
-  align-self: flex-start;
-  text-transform: uppercase;
+  margin-top: 10px;
 `;
 
 export const AtoresGrid = styled.div`
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
-  margin-top: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   justify-content: center; 
 `;
 
@@ -107,5 +79,32 @@ export const AtorChip = styled.span`
     color: white;
     border-color: #e50914;
     transform: scale(1.05); 
+  }
+`;
+
+export const MapBox = styled.div`
+  width: 100%;
+  height: 350px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-top: 20px;
+  border: 1px solid #2d2d35;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+`;
+
+export const BotonVoltar = styled.button`
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 30px;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: white;
+    color: black;
   }
 `;
