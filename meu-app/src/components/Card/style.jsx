@@ -3,12 +3,12 @@ import styled from 'styled-components';
 export const CardBox = styled.div`
   background-color: #1e1e24;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.7); 
   overflow: hidden;
   display: flex;
   flex-direction: column;
   transition: transform 0.2s;
-  border: 1px solid #2d2d35;
+  border: 1px solid #000000;
 
   &:hover {
     transform: translateY(-5px);
@@ -17,12 +17,12 @@ export const CardBox = styled.div`
 
 export const Imagen = styled.img`
   width: 100%;
-  height: 220px;
+  height: 250px;
   object-fit: cover;
 `;
 
 export const Info = styled.div`
-  padding: 16px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -44,7 +44,7 @@ export const Badge = styled.span`
 export const TituloCard = styled.h3`
   margin: 0;
   color: #ffffff;
-  font-size: 1.4rem;
+  font-size: 1.4rem; 
   text-align: center;
   line-height: 1.3;
 `;
@@ -54,22 +54,24 @@ export const AnoCard = styled.p`
   color: #b3b3b3;
   font-size: 14px;
   text-align: center;
+  margin-bottom: 10px;
 `;
 
 export const BotonDetalhes = styled.button`
-  background-color: transparent;
+  background-color: #26262b;
   color: #ffffff;
-  border: 2px solid #ffffff;
-  padding: 10px;
+  border: 2px solid #383842;
+  padding: 12px;
   border-radius: 6px;
   cursor: pointer;
   font-weight: bold;
   margin-top: auto; 
-  transition: all 0.2s;
+  transition: all 0.2s ease-in-out;
 
   &:hover {
     background-color: #ffffff;
     color: #000000;
+    border-color: #ffffff;
   }
 `;
 
@@ -77,12 +79,12 @@ export const BotonFav = styled.button`
   background-color: ${props => props.$fav ? '#e50914' : 'transparent'};
   color: #ffffff;
   border: 2px solid #e50914;
-  padding: 10px;
+  padding: 12px;
   border-radius: 6px;
   cursor: pointer;
   font-weight: bold;
-  margin-top: 4px;
-  transition: all 0.2s;
+  margin-top: 6px;
+  transition: all 0.2s ease-in-out;
 
   &:hover {
     background-color: #e50914;

@@ -1,21 +1,47 @@
+import React, { useState } from 'react';
 import { filmes } from '../../data/dados';
 import Card from '../../components/Card';
 import * as S from './style';
 
-export default function Home({ onSelecionarFilme }) {
+export default function HomeFilmes({ onSeleccionarFilme }) {
+  const [generoSelecionado, setGeneroSelecionado] = useState('Todos');
+
+  const generosDisponiveis = ['Todos', 'Drama', 'Ação', 'Comédia', 'Fantasia', 'Crime', 'Infantil'];
+
+  const filmesFiltrados = generoSelecionado === 'Todos'
+    ? filmes
+    : filmes.filter(filme => filme.genero.toLowerCase().includes(generoSelecionado.toLowerCase()));
+
   return (
-    <S.Wrapper>
-      <S.Titulo>🎬 CineDev - Meu Catálogo de Filmes</S.Titulo>
+    <S.PaginaContainer>
+      <S.HeaderTitulo>
+        <span className="emoji">🎬</span>
+        <span className="texto">CineDev</span>
+      </S.HeaderTitulo>
       
-      <S.Grid>
-        {filmes.map((cadaFilme) => (
+      <S.Subtitulo></S.Subtitulo>
+
+      <S.ContainerFiltros>
+        {generosDisponiveis.map((genero) => (
+          <S.BotaoFiltro
+            key={genero}
+            $ativo={generoSelecionado === genero}
+            onClick={() => setGeneroSelecionado(genero)}
+          >
+            {genero}
+          </S.BotaoFiltro>
+        ))}
+      </S.ContainerFiltros>
+
+      <S.GridFilmes>
+        {filmesFiltrados.map((filme) => (
           <Card 
-            key={cadaFilme.id} 
-            filme={cadaFilme} 
-            onVerMais={() => onSelecionarFilme(cadaFilme)} 
+            key={filme.id} 
+            filme={filme} 
+            onVerMais={() => onSeleccionarFilme(filme)} 
           />
         ))}
-      </S.Grid>
-    </S.Wrapper>
+      </S.GridFilmes>
+    </S.PaginaContainer>
   );
 }
