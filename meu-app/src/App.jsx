@@ -1,52 +1,43 @@
-import { useState } from 'react';
-import Home from './pages/Home';
+import React, { useState } from 'react';
+import HomeFilmes from './pages/HomeFilmes';
 import Detalhes from './pages/Detalhes';
-import Diretor from './pages/Diretor';
-import Ator from './pages/Ator'; 
-import { createGlobalStyle } from 'styled-components';
+import PerfilAtor from './pages/PerfilAtor'; 
 
-const GlobalStyle = createGlobalStyle`
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: #141414; 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+export default function App() {
+  const [filmeSelecionado, setFilmeSelecionado] = useState(null);
+  const [atorSelecionado, setAtorSelecionado] = useState(null);
+  const [diretorSelecionado, setDiretorSelecionado] = useState(null); 
+  if (diretorSelecionado) {
+    return (
+      <PerfilAtor 
+        ator={diretorSelecionado} 
+        onVoltar={() => setDiretorSelecionado(null)} 
+      />
+    );
   }
-`;
 
-function App() {
-  const [filmeAtivo, setFilmeAtivo] = useState(null);
-  const [diretorAtivo, setDiretorAtivo] = useState(null);
-  const [atorAtivo, setAtorAtivo] = useState(null); 
+
+  if (atorSelecionado) {
+    return (
+      <PerfilAtor 
+        ator={atorSelecionado} 
+        onVoltar={() => setAtorSelecionado(null)} 
+      />
+    );
+  }
+
+  if (filmeSelecionado) {
+    return (
+      <Detalhes 
+        filme={filmeSelecionado} 
+        onVoltar={() => setFilmeSelecionado(null)} 
+        onVerAtor={(ator) => setAtorSelecionado(ator)}
+        onVerDiretor={(diretor) => setDiretorSelecionado(diretor)} 
+      />
+    );
+  }
 
   return (
-    <>
-      <GlobalStyle />
-
-      {atorAtivo ? (
-        <Ator 
-          ator={atorAtivo} 
-          onVoltar={() => setAtorAtivo(null)} 
-        />
-      ) : diretorAtivo ? (
-        <Diretor 
-          filme={diretorAtivo} 
-          onVoltar={() => setDiretorAtivo(null)} 
-        />
-      ) : filmeAtivo ? (
-        <Detalhes 
-          filme={filmeAtivo} 
-          onVoltar={() => setFilmeAtivo(null)} 
-          onVerDiretor={() => setDiretorAtivo(filmeAtivo)}
-          onVerAtor={(ator) => setAtorAtivo(ator)} 
-        />
-      ) : (
-        <Home 
-          onSelecionarFilme={(filme) => setFilmeAtivo(filme)} 
-        />
-      )}
-    </>
+    <HomeFilmes onSeleccionarFilme={(filme) => setFilmeSelecionado(filme)} />
   );
 }
-
-export default App;

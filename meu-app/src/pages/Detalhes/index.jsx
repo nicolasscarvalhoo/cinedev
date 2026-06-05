@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from './style';
 
-export default function Detalhes({ filme, onVoltar, onVerAtor }) {
+export default function Detalhes({ filme, onVoltar, onVerAtor, onVerDiretor }) {
   if (!filme) {
     return (
       <S.Container>
@@ -23,7 +23,13 @@ export default function Detalhes({ filme, onVoltar, onVerAtor }) {
       
       <S.InfoSet>
         <p><strong>Ano de Lançamento:</strong> {filme.ano}</p>
-        <p><strong>Diretor:</strong> <span style={{ color: '#e50914', fontWeight: 'bold' }}>{filme.diretor}</span></p>
+
+        <p>
+          <strong>Diretor:</strong> 
+          <S.DiretorLink onClick={() => onVerDiretor({ nome: filme.diretor, foto: filme.imgDiretor, bio: filme.bioDiretor })}>
+            {filme.diretor}
+          </S.DiretorLink>
+        </p>
         
         <p style={{ fontWeight: 'bold', marginTop: '10px', marginBottom: '0px' }}>Elenco Principal:</p>
         <S.AtoresGrid>
