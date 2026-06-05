@@ -82,6 +82,20 @@ export const AtorChip = styled.span`
   }
 `;
 
+export const DiretorLink = styled.span`
+  color: #e50914;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 5px;
+  transition: color 0.2s, text-decoration 0.2s;
+
+  &:hover {
+    color: #b81d24;
+    text-decoration: underline;
+  }
+`;
+
 export const MapBox = styled.div`
   width: 100%;
   height: 350px;
